@@ -9,8 +9,19 @@
 #include <iostream>
 #include <opencv2/opencv.hpp>
 
+#include "ImageParserMain/ImageParserMain.h"
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World! Maurice\n";
+    std::cout << "Started main.cpp\n";
+
+    ImageParserMain imageParserMain;
+    imageParserMain.getImage();
+
+
+
+
+
+
     return 0;
 }
